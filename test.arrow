@@ -1,0 +1,13 @@
+num a <- 2;
+
+func bool main() -> {
+    while (a) -> {
+        a <- -2;
+        if(a<0) -> {
+            a <- 2;
+        } else {
+            a <- 4;
+        }
+        write a;
+    }
+}
